@@ -1,8 +1,10 @@
 {
-    "current_date": "2024-03-18",
+    "current_date": "2024-06-24",
     "show_elements": [
+        "plots",
         "news_feed",
         "events_table",
+        "diseases_table",
         "line_list"
     ],
     "weekly_hosp_data": {
@@ -11,14 +13,42 @@
             "2024-02-19",
             "2024-02-26",
             "2024-03-04",
-            "2024-03-11"
+            "2024-03-11",
+            "2024-03-18",
+            "2024-03-25",
+            "2024-04-01",
+            "2024-04-08",
+            "2024-04-15",
+            "2024-04-22",
+            "2024-04-29",
+            "2024-05-06",
+            "2024-05-13",
+            "2024-05-20",
+            "2024-05-27",
+            "2024-06-03",
+            "2024-06-10",
+            "2024-06-17"
         ],
         "y": [
             2,
             3,
             8,
             9,
-            24
+            27,
+            70,
+            147,
+            405,
+            1053,
+            2259,
+            4693,
+            7451,
+            8999,
+            8007,
+            5817,
+            3635,
+            1897,
+            938,
+            445
         ],
         "type": "bar",
         "name": "Hospitalized",
@@ -30,27 +60,105 @@
             "2024-02-19",
             "2024-02-26",
             "2024-03-04",
-            "2024-03-11"
+            "2024-03-11",
+            "2024-03-18",
+            "2024-03-25",
+            "2024-04-01",
+            "2024-04-08",
+            "2024-04-15",
+            "2024-04-22",
+            "2024-04-29",
+            "2024-05-06",
+            "2024-05-13",
+            "2024-05-20",
+            "2024-05-27",
+            "2024-06-03",
+            "2024-06-10",
+            "2024-06-17"
         ],
         "y": [
             0,
             0,
             0,
             2,
-            3
+            4,
+            6,
+            15,
+            31,
+            75,
+            188,
+            351,
+            581,
+            750,
+            691,
+            450,
+            294,
+            144,
+            68,
+            33
         ],
         "type": "bar",
         "name": "Deaths",
         "visible": true
     },
+    "house_rate_hist": {
+        "x": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "y": [
+            33728,
+            5243,
+            507,
+            34,
+            1
+        ],
+        "type": "bar",
+        "name": "Hospitalizations in the same household",
+        "visible": true
+    },
+    "news_feed_html": "<p>\n  <i>\n    [2024-03-18]\n  </i>\n  Notification of 50 hospitalizations and 5 deaths\n</p>\n<p>\n  <i>\n    [2024-04-01]\n  </i>\n  Travel history: 7% traveled internationally; 20% traveled nationally\n</p>\n<p>\n  <i>\n    [2024-04-08]\n  </i>\n  Many of the hospitalized people are school students.\n</p>\n<p>\n  <i>\n    [2024-04-22]\n  </i>\n  Lab tests for RSV were added\n</p>\n<p>\n  <i>\n    [2024-04-29]\n  </i>\n  Households are identified in the line list\n</p>\n<p>\n  <i>\n    [2024-05-06]\n  </i>\n  Mayor statement: \"I want to acknowledge the importance of uncertainty. At the early stages of an outbreak, there\u2019s much uncertainty, and probably more than everyone would like. Our guidelines and advice are likely to be interim and fluid, subject to change as we learn more. We\u2019re moving quickly to learn as much as possible and working with many local, state, and international partners to do so.\"\n</p>\n<p>\n  <i>\n    [2024-05-27]\n  </i>\n  Isolation for positive-tested people starts taking place. Probable cases are advised to isolate.\n</p>\n<p>\n  <i>\n    [2024-05-27]\n  </i>\n  Probable case is defined as everybody with the following symptoms occurring after Feb-11-2024: High fever, fatigue, coughing, vomiting, diarhea and headaches. Confirmed cases are defined as everybody with the symptoms and laboratory confirmation for: Influenza A.\n</p>\n\n<p>\n  <i>\n    [2024-06-17]\n  </i>\n  Less than 1000 people were hospitalized in the last week\n</p>\n",
     "events_table": {
         "hosp": [
             "Hospitalizations",
-            50
+            45876
         ],
         "deaths": [
             "Deaths",
-            5
+            3684
+        ],
+        "sympt": [
+            "Symptomatic",
+            112443
+        ]
+    },
+    "diseases_table": {
+        "influenza_a_not_subtyped": [
+            "Influenza A (not subtyped)",
+            40948,
+            4846,
+            82
+        ],
+        "influenza_ah1pdm09": [
+            "Influenza A(H1)pdm09",
+            0,
+            45876,
+            0
+        ],
+        "sars_cov_2": [
+            "SARS-CoV-2",
+            238,
+            45637,
+            2
+        ],
+        "rsv": [
+            "RSV",
+            1,
+            45875,
+            0
         ]
     }
 }
